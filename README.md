@@ -1,5 +1,5 @@
 # TSD305 Arduino Library
-Arduino library for the TSD305 sensor
+Arduino library for the [TSD305 sensor](http://www.te.com/usa-en/product-G-TPMO-101.html)
 
 
 ##Sensor Description
