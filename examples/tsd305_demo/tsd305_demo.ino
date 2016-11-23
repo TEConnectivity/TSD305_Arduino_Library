@@ -9,6 +9,7 @@ void setup() {
   Serial.println("======== TSD305 =========");
   Serial.println("======== Measure ========");
 
+  m_tsd305.begin();
 }
 
 void loop() {
@@ -21,7 +22,8 @@ void loop() {
   if (connected) {
     Serial.println(connected ? "Sensor Connected" : "Sensor Disconnected");
 
-    status = m_tsd305.read_temperature_and_object_temperature(&temperature, &object_temperature);
+    status = m_tsd305.read_temperature_and_object_temperature(
+        &temperature, &object_temperature);
 
     Serial.print("---Temperature = ");
     Serial.print(temperature, 1);

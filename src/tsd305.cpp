@@ -110,8 +110,14 @@ enum status_code {
 };
 
 tsd305::tsd305(void) {
-  Wire.begin();
   tsd305_coeff_read = false;
+}
+
+/**
+ * \brief Perform initial configuration. Has to be called once.
+ */
+void tsd305::begin(void) {
+  Wire.begin();
 }
 
 /**
