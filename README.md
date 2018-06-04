@@ -1,9 +1,6 @@
 # TSD305 Arduino Library
 Arduino library for the [TSD305 sensor](http://www.te.com/usa-en/product-G-TPMO-101.html)
 
-
-##Sensor Description
-
 The TSD is a contactless temperature measurement system located in a TO5 package. The TSD includes an infrared sensor (thermopile) and a sensor signal conditioner.
 The TSD can be interfaced to any microcontroller by an I2C interface. This microcontroller has to calculate the temperature results based on the ADC values and the calibration parameters.
 The basic working principle is:
@@ -13,7 +10,7 @@ The basic working principle is:
 ADC values
 * Providing ADC values and calibration coefficients via. I2C interface.
 
-###Features
+### Features
 * 0°C ... +100°C measurement range Small size
 * Up to ±1°C accuracy
 * I2C Interface
@@ -21,6 +18,6 @@ ADC values
 * Operating Temperature Range: -10°C ... +85°C
 
 
-##Library features
+### Library features
 * Connection test
 * Temperature and object temperature measurement
