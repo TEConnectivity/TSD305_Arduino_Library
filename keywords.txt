@@ -25,15 +25,15 @@ read_temperature	KEYWORD2
 # Constants (LITERAL1)
 #######################################
 
-	tsys01_i2c_address_csb_1 	LITERAL1
-	tsys01_i2c_address_csb_0	LITERAL1
+tsys01_i2c_address_csb_1	LITERAL1
+tsys01_i2c_address_csb_0	LITERAL1
 
-	tsys01_status_ok	LITERAL1,
-	tsys01_status_no_i2c_acknowledge	LITERAL1
-	tsys01_status_i2c_transfer_error	LITERAL1
-	tsys01_status_crc_error		LITERAL1
-	
-	STATUS_OK           	LITERAL1
-   	STATUS_ERR_OVERFLOW	    LITERAL1
-  	STATUS_ERR_TIMEOUT  	LITERAL1
-	
+tsys01_status_ok	LITERAL1,
+tsys01_status_no_i2c_acknowledge	LITERAL1
+tsys01_status_i2c_transfer_error	LITERAL1
+tsys01_status_crc_error	LITERAL1
+
+STATUS_OK	LITERAL1
+STATUS_ERR_OVERFLOW	LITERAL1
+STATUS_ERR_TIMEOUT	LITERAL1
+
